@@ -1,0 +1,27 @@
+body {
+	background-color: #E0FFFF;
+	text-align: left;
+}
+h1 {
+	color: #848482;
+	font-weight: bold;
+	font-family: "Tahoma";
+}
+p {
+	color: #BCC6CC;
+	font-family: "Calibri";
+}
+#slogan {
+	font-style: italic;
+	font-size: 24px;
+	color: #000;
+}
+ul {
+	font-family: "Calibri";
+	color: #BCC6CC;
+}
+a {
+	font-style: italic;
+	text-decoration: none;
+	color: #BCC6CC;
+}
