@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
+@import url(http://fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic);
+
+body {
+	background-color: #010101;
+	text-align: left;
+}
+h1 {
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+h2 {
+	font-family: '400 Oxygen', sans-serif;
+	color: #eee;
+	font-size: 45px;
+	text-align: center;
+	margin: 2em;
+}
+p {
+	color: #eee;
+	font-family: 'Tinos', serif;
+	line-height: 1.5em;
+	font-size: 24px;
+	margin: 2em;
+	text-align: center;
+}
+a {
+	font-style: italic;
+	text-decoration: none;
+	color: #eee;
+}
+#contact {
+	color: #ccc;
+	font-family: 'Tinos', serif;
+	line-height: 1.5em;
+	font-size: 18px;
+	margin: 2em;
+	text-align: center;
+}
