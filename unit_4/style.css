@@ -16,7 +16,7 @@ h2 {
 	color: #eee;
 	font-size: 45px;
 	text-align: center;
-	margin: 2em;
+	margin: 1em;
 }
 p {
 	color: #eee;
@@ -38,4 +38,15 @@ a {
 	font-size: 18px;
 	margin: 2em;
 	text-align: center;
+}
+.main {
+	text-align: center;
+}
+.main img{
+	width: 500px;
+	height: 500px;
+}
+#contact p{
+	margin-bottom: .5em;
+	margin-top: .5em;
 }
