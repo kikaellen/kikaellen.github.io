@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Vidaloka);
+
+h1 {
+	font-family: Vidaloka, serif;
+	font-size: 28px;
+	color: #000;
+	margin: 2em;
+}
+
+h2, p, nav, footer {
+	font-family: Helvetica, sans-serif;
+	color: #000;
+	margin: 1.5em;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 16px;
+}
+
+nav {
+	font-size: 16px;
+	text-align: right;
+}
+
+img {
+	width: 200px;
+	margin: 1.5em;
+}
+
+.gallery {
+
+}
+
+article {
+
+}
+
+footer {
+	text-align: center;
+}
