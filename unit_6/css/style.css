@@ -1,43 +1,74 @@
 @import url(http://fonts.googleapis.com/css?family=Vidaloka);
 
+body {
+	font-size: 16px
+}
+
+header {
+	background-color: #BAC9FF;
+}
+
 h1 {
-	font-family: Vidaloka, serif;
-	font-size: 28px;
+	font-family: "Vidaloka", serif;
+	font-size: 2em;
 	color: #000;
 	margin: 2em;
 }
 
-h2, p, nav, footer {
+h2, p, nav, footer, .title {
 	font-family: Helvetica, sans-serif;
 	color: #000;
 	margin: 1.5em;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: bold;
-}
-
-p {
-	font-size: 16px;
+	text-transform: uppercase;
 }
 
 nav {
-	font-size: 16px;
 	text-align: right;
 }
 
-img {
-	width: 200px;
-	margin: 1.5em;
+.gallery {
+	position: relative;
+	display: inline-block;
+	float: left;
+	outline: 3px solid #000;
+	text-align: center;
+	margin: 0 auto;
+
 }
 
-.gallery {
+.title {
+	position: absolute;
+	bottom: 40%;
+	left: 20%;
+	color: #fff;
+	opacity: 0;
+	font-weight: bold;
+	text-align: center;
+}
 
+div.gallery:hover .title{
+	opacity: 1;
+}
+
+.blog-image {
+	display: inline-block;
+	float: left;
+	outline: 3px solid #000;
+	margin: 0 auto;
 }
 
 article {
+	float: right;
+	width: 75%;
+}
 
+.content {
+	padding: 1.5em
 }
 
 footer {
