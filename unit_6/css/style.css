@@ -1,76 +1,141 @@
 @import url(http://fonts.googleapis.com/css?family=Vidaloka);
 
 body {
-	font-size: 16px
+	font-size: 16px;
+	margin: 0px;
+	padding: 10px;
 }
 
 header {
-	background-color: #BAC9FF;
+	background: #BAC9FF;
+	padding: 0.5em 3em;
 }
 
 h1 {
 	font-family: "Vidaloka", serif;
-	font-size: 2em;
+	font-size: 3em;
 	color: #000;
-	margin: 2em;
+	margin: 0.8em;
+	float: left;
+	padding: 0 2em;
 }
 
-h2, p, nav, footer, .title {
+p, nav, .title {
 	font-family: Helvetica, sans-serif;
 	color: #000;
-	margin: 1.5em;
+	margin: 1em;
+	line-height: 1.2em;
 }
 
 h2 {
-	font-size: 1.25em;
+	font-family: "Vidaloka", serif;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-transform: uppercase;
+	float: left;
+	padding: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
 }
 
 nav {
 	text-align: right;
+	padding: .25em 4em;
+	font-family: "Vidaloka", serif;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	background: #BAC9FF;
+	margin: 5px;
+	clear: left;
+}
+
+nav a:hover{
+	color: #FF235A;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#gallery-columns {
+	width: 80%;
+	margin: 20px;
+	float: left;
+	clear: left;
+	padding: 1em 8em;
+	text-align: center;
 }
 
 .gallery {
 	position: relative;
-	display: inline-block;
 	float: left;
-	outline: 3px solid #000;
 	text-align: center;
-	margin: 0 auto;
-
+	margin: 20px;
 }
 
 .title {
 	position: absolute;
-	bottom: 40%;
-	left: 20%;
-	color: #fff;
+	bottom: 45%;
+	left: 8%;
+	color: #FF235A;
 	opacity: 0;
 	font-weight: bold;
 	text-align: center;
+	font-size: 2em;
 }
 
 div.gallery:hover .title{
 	opacity: 1;
 }
 
-.blog-image {
-	display: inline-block;
-	float: left;
-	outline: 3px solid #000;
-	margin: 0 auto;
+div.gallery:hover {
+	opacity: 0.8;
 }
 
 article {
-	float: right;
-	width: 75%;
+	width: 80%;
+	margin: 20px;
+	float: left;
+	clear: left;
+	padding: 0 8em;
+	text-align: left;
 }
 
-.content {
-	padding: 1.5em
+.blog-title {
+	display: block;
+	padding: 0 1em;
+	float: left;
+	clear: left;
+	line-height: 1em;
+}
+
+.blog-content {
+	float: left;
+	clear: left;
+	padding: 0 1em;
+}
+
+div.blog-image img {
+	display: block;
+	float: left;
+	margin: 10px;
+	height: 200px;
+	margin: 35px;
 }
 
 footer {
 	text-align: center;
+	padding: 3em;
+	font-family: "Vidaloka", serif;
+	font-size: 1em;
+	text-decoration: none;
+	color: #000;
 }
