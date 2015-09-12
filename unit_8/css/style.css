@@ -3,26 +3,33 @@
 body {
 	font-size: 16px;
 	margin: 0px;
-	padding: 10px;
+	padding: 2px;
 }
 
 header {
-	padding: 0.5em 3em;
 	background: #2b2b2b;
-	width: 93%;
+	width: 100%;
 	float: left;
 	clear: left;
-	border-bottom: 6px #44FFAB;
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+}
+
+.headline {
+	display: inline-block;
 }
 
 h1 {
 	font-family: "Raleway", sans-serif;
-	font-size: 3em;
+	font-size: 3.9625em;
 	color: #eee;
-	margin: 0.8em;
-	float: none;
-	padding: 0 2em;
 	text-align: center;
+	position: relative;
+	bottom: 0.65em;
+	display: inline-block;
 }
 
 h2, h3, .title {
@@ -61,12 +68,10 @@ a {
 }
 
 nav {
-	text-align: center;
-	padding: .25em 4em;
+	text-align: right;
 	font-family: "Raleway", sans-serif;
 	font-size: 1.6em;
 	margin: 5px;
-	clear: left;
 }
 
 nav a:hover{
@@ -178,10 +183,13 @@ div.blog-image img {
 }
 
 footer {
+	width: 100%;
 	text-align: center;
-	padding: 4em;
+	padding: 2em;
 	font-family: "Raleway", sans-serif;
 	font-size: 1em;
 	text-decoration: none;
-	color: #2b2b2b;
+	color: #fff;
+	float: right;
+	background: #2b2b2b
 }
